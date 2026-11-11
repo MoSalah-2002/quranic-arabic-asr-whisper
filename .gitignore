@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Training outputs / large files
+output/
+checkpoints/
+Quran_text_ASR_model/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.wav
+*.mp3
+*.flac
+*.parquet
+
+# Local datasets and caches
+data/*
+!data/README.md
+.cache/
